@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Suci Indriani - Portofolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      font-style: italic;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #tentang-saya img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 10px auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    ul li {
+      background-color: #e0f7fa;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+
+    ul li h3 {
+      margin: 0 0 5px;
+    }
+
+    #kontak p {
+      text-align: center;
+      font-size: 1.1em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Suci Indriani</h1>
+    <p>Slogan atau Profesi Anda</p>
+  </header>
+
+  <!-- Tentang Saya -->
+  <section id="tentang-saya">
+    <h2>Tentang Saya</h2>
+    <img src="images/foto_diri.jpg" alt="Foto Suci Indriani">
+    <p>Saya adalah seorang [profesi], dengan latar belakang pendidikan di [institusi]. Saya memiliki keahlian dalam [sebutkan keahlian].</p>
+  </section>
+
+  <!-- Proyek -->
+  <section id="proyek">
+    <h2>Proyek Saya</h2>
+    <ul>
+      <li>
+        <h3>Proyek 1</h3>
+        <p>Deskripsi singkat proyek 1 yang pernah Anda buat.</p>
+      </li>
+      <li>
+        <h3>Proyek 2</h3>
+        <p>Deskripsi singkat proyek 2 yang pernah Anda buat.</p>
+      </li>
+      <!-- Tambahkan lebih banyak proyek jika ada -->
+    </ul>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:email@domain.com">email@domain.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a></p>
+    <!-- Tambahkan media sosial lain jika ada -->
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Suci Indriani</p>
+  </footer>
+</body>
+</html>
